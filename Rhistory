@@ -1,0 +1,53 @@
+print("hi mom")
+library(BatchGetSymbols)
+pacman::p_load(httr,jsonlite,dplyr)
+my_url<-paste0("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=IBM&outputsize=full&apikey=PC0STE8VS6JU0LXF", Sys.getenv("ALPHAVANTAGE_KEY"))
+my_raw_result<-httr::GET(my_url)
+install.packages(c("httr", "jsonlite"))
+library(httr)
+pacman::p_load(httr,jsonlite,dplyr)
+res = GET("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=IBM&outputsize=full&apikey=PC0STE8VS6JU0LXF", Sys.getenv("ALPHAVANTAGE_KEY")
+my_raw_result<-httr::GET(my_url)
+dat <- read.csv("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=RELIANCE.BSE&outputsize=full&apikey=PC0STE8VS6JU0LXF", header = TRUE)
+dat <- read.csv("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=RELIANCE.BSE&outputsize=full&apikey=PC0STE8VS6JU0LXF", header = TRUE)
+source("~/.active-rstudio-document")
+source("~/.active-rstudio-document")
+dat <- read.csv("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=RELIANCE.BSE&outputsize=full&apikey=PC0STE8VS6JU0LXF", header = T)
+dat <- read.csv("https://query1.finance.yahoo.com/v8/finance/chart/", header = T)
+install.packages("nse2r")
+#load packages
+library(quantmod)
+#import stock data
+getSymbols("NSE:INFY", src = "yahoo", from = "2019-01-01", to = "2019-12-31")
+install.packages("quantmod")
+#load packages
+library(quantmod)
+#import stock data
+getSymbols("NSE:INFY", src = "yahoo", from = "2019-01-01", to = "2019-12-31")
+install.packages("quantmod")
+library(quantmod)
+#import stock data
+getSymbols("NSE:INFY", src = "yahoo", from = "2019-01-01", to = "2019-12-31")
+library(quantmod)
+#import stock data
+getSymbols("NSE:INFY", src = "yahoo", from = "2019-01-01", to = "2019-12-31")
+library(quantmod)
+getSymbols("INFY.NS","MGC=F", src="yahoo")
+getSymbols("INFY.NS","TCS.NS", src="yahoo")
+getSymbols("TCS.NS", src="yahoo")
+head(TCS.NS)
+getSymbols("NSE:INFY", src = "yahoo")
+getSymbols("INFY", src = "yahoo")
+head(INFY)
+f = open('stock_data.csv', 'w')
+#import necessary libraries
+import csv
+library(quantmod)
+library(tidyverse)
+install.packages("tidyverse")
+library(quantmod)
+library(tidyverse)
+# download the stock data
+getSymbols("AAPL", src="yahoo", from="2001-01-01", to="2020-05-20", auto.assign = TRUE)
+# save the data to a csv file
+write.csv(AAPL, file="AAPL_data.csv")
